@@ -1,0 +1,21 @@
+<svg width="8.5in" height="11in" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <rect height="39" width="180" y="40" x="579" stroke="#000" fill="#fff"/>
+    <rect height="39" width="180" y="79" x="579" stroke="#000" fill="#fff"/>
+
+    <text font-size="8" stroke-width="0" y="52" x="582" stroke="#000" fill="#000000"
+      >Author:</text>
+    <text font-size="16" stroke-width="0" y="66" x="643" stroke="#000" fill="#000000"
+      >${//meta[@name='author']/@content}</text>
+
+    <text font-size="8" stroke-width="0" y="91" x="582" stroke="#000" fill="#000000"
+      >Version:</text>
+    <text font-size="16" stroke-width="0" y="104" x="659" stroke="#000" fill="#000000"
+      >${//meta[@name='version']/@content}</text>
+
+    <text font-size="30" stroke-width="0" y="252" x="123" stroke="#000" fill="#000000"
+      >${//head/title}</text>
+    <text font-size="12" stroke-width="0" y="993.40002" x="266" stroke="#000" fill="#000000"
+      >${//meta[@name='copyright']/@content}</text>
+  </g>
+</svg>
